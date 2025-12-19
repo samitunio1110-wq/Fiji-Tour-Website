@@ -10,16 +10,22 @@ import VideoShowcase from '../components/common/VideoShowcase'
 import TravelCardsGrid from '../components/common/TravelCardsGrid'
 import BrandsMarque from '../components/common/BrandsMarque'
 import ContactForm from '../components/forms/ContactForm'
+import BlogSection from '../components/blogs/BlogSection'
+import ContactSection from '../components/forms/ContactSection'
+import PopularThings from '../components/common/PopularThings'
 
 function Home() {
   return (
     <div>
       <TravelBanner/>
+      <PopularThings/>
       <FijiExperience/>
       <WhyChooseUs/>
       <PortfolioStacked/>
     <TopDestinations/>
     <CarRentalCarousel/>
+    <BlogSection/>
+    <ContactSection/>
     <VideoShowcase/>
     <TravelCardsGrid/>
     <BrandsMarque/>

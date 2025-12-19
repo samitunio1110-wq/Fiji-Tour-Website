@@ -1,7 +1,7 @@
 import React from "react";
 import AppRoutes from "./routes/AppRoutes";
 import "./App.css";
-import bgImg from "./assets/bgImg.jpg";
+import bgImg from "./assets/bg-img.jpg";
 
 function App() {
   return (
