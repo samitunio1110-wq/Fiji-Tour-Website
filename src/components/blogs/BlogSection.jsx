@@ -53,7 +53,7 @@ const BlogSection = () => {
 
           <p className="text-black mt-4 text-sm leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.  Lorem ipsum <br />dolor sit amet, consectetur adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa.
           </p>
         </div>
@@ -98,7 +98,7 @@ const BlogSection = () => {
 
       {/* Show More Button */}
       <div className="flex justify-center mt-12">
-          <button className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full transition-all duration-300">
+          <button className="bg-[#12c0e2] hover:bg-white hover:text-black text-white px-8 py-3 rounded-full transition-all duration-300 hover:border hover:border-[#12c0e2]">
             VIEW MORE
           </button>
       </div>

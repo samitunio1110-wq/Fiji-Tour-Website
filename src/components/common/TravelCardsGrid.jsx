@@ -30,7 +30,7 @@ export default function TravelCardsGrid() {
 
         {visible < cardsData.length && (
           <div className="mt-14 text-center">
-            <button className="bg-teal-500 hover:bg-[#0099A3] text-white px-8 py-3 rounded-full transition-all duration-300">
+            <button className="bg-[#12c0e2] hover:bg-white hover:text-black text-white px-8 py-3 rounded-full transition-all duration-300  hover:border hover:border-[#12c0e2] ">
             VIEW MORE
           </button>
           </div>

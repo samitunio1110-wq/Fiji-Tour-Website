@@ -18,7 +18,7 @@ const ContactForm = () => {
           <h2 className="text-[42px] font-bold leading-tight" style={{ fontFamily: "Poppins" }}>
             Les’t talk <br />
             on something{" "}
-            <span className="text-[#64CCC5]">great</span>
+            <span className="text-[#12c0e2]">great</span>
             <br />
             together
           </h2>
@@ -26,23 +26,23 @@ const ContactForm = () => {
           {/* CONTACT INFO */}
           <div className="mt-10 space-y-6 text-sm">
             <div className="flex items-center gap-4 text-xl">
-              <FaPhoneAlt className="text-[#64CCC5]" />
+              <FaPhoneAlt className="text-[#12c0e2]" />
               <span>+34 123 456 789</span>
             </div>
 
             <div className="flex items-center gap-4 text-xl">
-              <FaEnvelope className="text-[#64CCC5]" />
+              <FaEnvelope className="text-[#12c0e2]" />
               <span>andreaDesign@gmail.com</span>
             </div>
 
             <div className="flex items-center gap-4 text-xl">
-              <FaMapMarkerAlt className="text-[#64CCC5]" />
+              <FaMapMarkerAlt className="text-[#12c0e2]" />
               <span>123 Street 487 House</span>
             </div>
           </div>
 
           {/* SOCIAL ICONS */}
-          <div className="flex gap-10 mt-30 ml-10 text-[#64CCC5] text-4xl">
+          <div className="flex gap-10 mt-30 ml-10 text-[#12c0e2] text-4xl">
             <FaLinkedinIn className="cursor-pointer hover:scale-110 transition" />
             <FaBehance className="cursor-pointer hover:scale-110 transition" />
             <FaInstagram className="cursor-pointer hover:scale-110 transition" />
@@ -76,13 +76,13 @@ const ContactForm = () => {
               <textarea
                 rows="4"
                 placeholder="Enter your message"
-                className="w-full border border-gray-300 rounded-lg p-3 resize-none focus:outline-none focus:border-[#0c9fa1]"
+                className="w-full border border-gray-300 rounded-lg p-3 resize-none focus:outline-none focus:border-[#12c0e2]"
               ></textarea>
             </div>
 
             <button
               type="submit"
-              className="w-full bg-[#0c9fa1] hover:bg-[#0b8b8d] transition text-white py-2 rounded-md text-sm font-medium shadow-md"
+              className="w-full  bg-[#12c0e2] hover:bg-white hover:text-black transition text-white py-2 rounded-md text-sm font-medium shadow-md hover:border hover:border-[#12c0e2]"
             >
               Send
             </button>

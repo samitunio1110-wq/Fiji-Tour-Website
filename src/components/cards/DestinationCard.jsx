@@ -12,8 +12,8 @@ export const DestinationCard = ({ image, title, meta, price, children }) => {
 
         {/* Book Now Button */}
         <button
-          className="absolute -bottom-10 right-2 bg-teal-500 hover:bg-teal-600 
-          text-white px-6 py-2 rounded-full shadow-lg text-sm"
+          className="absolute -bottom-12 right-2 bg-[#12c0e2] hover:bg-white hover:text-black hover:border hover:border-[#12c0e2] 
+          text-white px-3 py-1 rounded-full shadow-lg text-[12px]"
         >
           Book Now
         </button>

@@ -99,7 +99,7 @@ export default function PortfolioStacked() {
         </button>
       </div>
 
-      <button className="mt-16 bg-teal-500 hover:bg-teal-600 text-white px-10 py-3 rounded-full">
+      <button className="mt-16 bg-[#12c0e2] hover:bg-white hover:text-black text-white px-10 py-3 rounded-full hover:border hover:border-[#12c0e2] ">
         VIEW MORE
       </button>
     </section>
