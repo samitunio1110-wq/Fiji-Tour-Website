@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Grape+Nuts&display=swap');
+
+/* index.css ya App.css mein */
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url('/fonts/AbrilFatface-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Grape Nuts';
+  src: url('/fonts/GrapeNuts-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom carousel transition */
+.carousel-slide {
+  transition: opacity 1s ease-in-out;
+}
+
+
+  @font-face {
+    font-family: "Abril Fatface";
+    src: url("/fonts/AbrilFatface-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }

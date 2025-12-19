@@ -1,0 +1,144 @@
+@keyframes button {
+  0%, 20% {
+    bottom: 50px;
+    right: 200px;
+    transform: scale(1);
+  }
+  35% {
+    bottom: 120px;
+    right: 340px;
+  }
+  50% {
+    bottom: 120px;
+    right: 340px;
+    transform: scale(0.6);
+  }
+  65%, 85% {
+    bottom: 120px;
+    right: 520px;
+    transform: scale(0.6);
+  }
+}
+
+@keyframes article-one {
+  0%, 50% {
+    right: 100%;
+    transform: scale(0.85);
+    opacity: 0.4;
+  }
+  65%, 100% {
+    right: 260%;
+    opacity: 0;
+  }
+}
+
+@keyframes article-two {
+  0%, 40% {
+    right: 0;
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.85);
+  }
+  65%, 100% {
+    right: 100%;
+    transform: scale(0.85);
+    opacity: 0.4;
+  }
+}
+
+@keyframes article-three {
+  0%, 40% {
+    transform: scale(0.85);
+  }
+  50% {
+    transform: scale(0.75);
+  }
+  65%, 100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes article-four {
+  0%, 40% {
+    transform: scale(0.75);
+    opacity: 0.4;
+  }
+  50% {
+    right: -30px;
+    transform: scale(0.65);
+  }
+  65%, 85% {
+    transform: scale(0.75);
+    opacity: 0.4;
+  }
+}
+
+/* Utility animation classes */
+.animate-button {
+  animation: button 2.5s infinite;
+}
+
+.animate-article-one {
+  animation: article-one 2.5s infinite;
+}
+
+.animate-article-two {
+  animation: article-two 2.5s infinite;
+}
+
+.animate-article-three {
+  animation: article-three 2.5s infinite;
+}
+
+.animate-article-four {
+  animation: article-four 2.5s infinite;
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+
+/* Add to your index.css or App.css */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse 40s linear infinite;
+}
+
+/* Pause animation on hover */
+.animate-marquee:hover,
+.animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+
+/* Portfolio section  */
+
