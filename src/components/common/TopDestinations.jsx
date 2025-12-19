@@ -15,7 +15,7 @@ export default function TopDestinations() {
         Top Destinations
       </h2>
 
-      <Marquee speed={25} pauseOnHover gradient={false}>
+      <Marquee speed={25} pauseOnHover gradient={false} className="p-10">
         <DestinationCard image={img1} title="Rome, Italy" meta="10 Days Trip" price="$5,42k" />
         <DestinationCard image={img2} title="London, UK" meta="10 Days Trip" price="$5,42k" />
         <DestinationCard image={img3} title="Full Europe" meta="10 Days Trip" price="$5,42k" />
