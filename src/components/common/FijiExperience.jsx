@@ -59,7 +59,7 @@ const FijiExperience = () => {
         {/* RIGHT CONTENT */}
         <div className="pl-20">
           <h2
-            className="text-6xl font-bold text-gray-900 mb-4"
+            className="text-6xl font-bold text-[#14183E] mb-4"
             style={{ fontFamily: "Abril Fatface" }}
           >
             Only at My Fiji

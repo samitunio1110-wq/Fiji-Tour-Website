@@ -50,7 +50,7 @@ const TravelBanner = () => {
             </div>
             
             {/* Centered Text Content */}
-            <div className="absolute inset-0 flex flex-col text-center text-white pt-[216px]  ">
+            <div className="absolute inset-0 flex flex-col justify-center text-center text-white pt-[216px]  ">
               <h1 
                 style={{ fontFamily: "'Abril Fatface', serif" }}
                 className="text-[48px] lg:text-8xl mb-4 md:mb-6"

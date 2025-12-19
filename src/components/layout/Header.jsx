@@ -183,7 +183,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-500 transition-all duration-300 ${
           isScrolled
             ? "bg-black/95 backdrop-blur-md shadow-xl"
             : "bg-gradient-to-b from-black/60 to-transparent"
@@ -256,7 +256,7 @@ const Navbar = () => {
                 onMouseLeave={() => handleMouseLeave(item.key)}
               >
                 {/* NAV BUTTON */}
-                <button className="text-white text-lg hover:text-teal-300 font-bold py-2 px-3 flex items-center gap-1">
+                <button className="text-white text-lg hover:text-[#023c7c]  font-bold py-2 px-3 flex items-center gap-1">
                   {item.label}
                   
                 </button>
@@ -265,8 +265,8 @@ const Navbar = () => {
                 <div
                   onMouseEnter={() => handleMouseEnter(item.key)}
                   onMouseLeave={() => handleMouseLeave(item.key)}
-                  className={`absolute left-0 mt-2 w-64 bg-transparent  backdrop-blur-xl 
-            border   p-5 z-50
+                  className={`absolute left-0 mt-2 w-64 bg-[#023c7c]  backdrop-blur-xl 
+          rounded-xl   p-5 z-50
             transition-all duration-300 ease-out
             ${
               activeDropdown === item.key
@@ -279,7 +279,7 @@ const Navbar = () => {
                     <Link
                       key={index}
                       to={dropdownItem.route}
-                      className="block text-black font-bold hover:text-white p-3 rounded-lg hover:bg-teal-500/10 transition"
+                      className="block text-white font-bold hover:text-white p-3 rounded-lg hover:bg-teal-500/10 transition"
                       onClick={() => setActiveDropdown(null)}
                     >
                       {dropdownItem.name}

@@ -43,7 +43,7 @@ const BlogSection = () => {
             Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
           </h2>
 
-          <div className="rounded-2xl overflow- shadow-lg">
+          <div className="rounded-2xl overflow-hidden ">
             <img
               src={mainImg}
               alt="blog"
@@ -73,7 +73,7 @@ const BlogSection = () => {
                 <img
                   src={item.image}
                   alt="article"
-                  className=" h-26 rounded-lg object-cover"
+                  className=" h-26 w-40 rounded-lg object-cover"
                 />
 
                 <div>

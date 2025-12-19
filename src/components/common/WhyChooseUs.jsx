@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
         
         {/* LEFT SIDE */}
         <div>
-          <h2 className="text-6xl font-bold text-gray-900 mb-4"  style={{ fontFamily: "Abril Fatface" }}>
+          <h2 className="text-6xl font-bold text-[#14183E] mb-4"  style={{ fontFamily: "Abril Fatface" }}>
             Why Choose Us
           </h2>
 

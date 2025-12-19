@@ -26,7 +26,7 @@ const Footer = () => {
           </p>
 
           {/* SOCIAL */}
-          <div className="flex gap-6 mt-6 text-[#1AB8D3] text-4xl">
+          <div className="flex gap-6 mt-6 text-[#0099A3] text-4xl">
             <FaLinkedinIn className="cursor-pointer hover:scale-110 transition" />
             <FaBehance className="cursor-pointer hover:scale-110 transition" />
             <FaInstagram className="cursor-pointer hover:scale-110 transition" />
@@ -75,7 +75,7 @@ const Footer = () => {
             placeholder="email@example.com"
             className="w-full bg-transparent border-b border-gray-400 text-sm py-2 focus:outline-none focus:border-[#19c2d8]"
           />
-          <button className="mt-4 w-full bg-[#19c2d8] hover:bg-[#12a6ba] transition-all py-2 rounded-md text-sm font-medium">
+          <button className="mt-4 w-full bg-[#0099A3] hover:bg-[#12a6ba] transition-all py-2 rounded-md text-sm font-medium">
             Subscribe
           </button>
         </div>

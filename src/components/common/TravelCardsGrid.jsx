@@ -30,12 +30,9 @@ export default function TravelCardsGrid() {
 
         {visible < cardsData.length && (
           <div className="mt-14 text-center">
-            <button
-              onClick={() => setVisible((prev) => prev + 2)}
-              className="px-8 py-3 bg-sky-700 text-white rounded-full shadow hover:bg-sky-800 transition"
-            >
-              Show More
-            </button>
+            <button className="bg-teal-500 hover:bg-[#0099A3] text-white px-8 py-3 rounded-full transition-all duration-300">
+            VIEW MORE
+          </button>
           </div>
         )}
       </div>
