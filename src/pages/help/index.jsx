@@ -11,7 +11,7 @@ const FAQ = React.lazy(() => import("./FAQ"));
 const TravelAgentsInFiji = React.lazy(() => import("./TravelAgentsInFiji"));
 const TandCs = React.lazy(() => import("./T&Cs"));
 const PrivacyPolicy = React.lazy(() => import("./PrivacyPolicy"));
-const Sitemap = React.lazy(() => import("./Sitemap"));
+
 
 
 const AllHelps = () => {
@@ -25,7 +25,7 @@ const AllHelps = () => {
       <Route path="/travel-agents" element={<TravelAgentsInFiji />} />
       <Route path="/terms" element={<TandCs />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
-      <Route path="/sitemap" element={<Sitemap />} />
+      
 
     </Routes>
   );

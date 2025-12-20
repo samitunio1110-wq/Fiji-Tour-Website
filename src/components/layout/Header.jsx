@@ -127,7 +127,7 @@ const Navbar = () => {
       "Travel Agents In Fiji": "/help/travel-agents",
       "T&Cs": "/help/terms",
       "Privacy Policy": "/help/privacy",
-      Sitemap: "/help/sitemap",
+      
     },
   };
 
@@ -213,7 +213,7 @@ const Navbar = () => {
             <form onSubmit={handleSearch} className="relative">
               <div
                 className={`relative transition-all duration-300 ${
-                  isSearchFocused ? "w-64" : "w-48"
+                  isSearchFocused ? "w-64" : "w-64"
                 }`}
               >
                 <input
@@ -223,11 +223,12 @@ const Navbar = () => {
                   onFocus={() => setIsSearchFocused(true)}
                   onBlur={() => setIsSearchFocused(false)}
                   placeholder="Search activities, tours..."
-                  className="w-full bg-white/10 backdrop-blur-sm text-white placeholder-gray-400 px-4 py-2 pr-10 rounded-full border border-white/20 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/50"
+                  
+                  className="w-full bg-white/10 backdrop-blur-sm text-white placeholder-gray-800 px-4 py-2 pr-10 rounded-full border focus:outline-none focus:ring-2 focus:ring-[#12c0e2]"
                 />
                 <button
                   type="submit"
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-white hover:text-teal-300"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-white hover:text-[#12c0e2]"
                 >
                   <Search className="w-5 h-5" />
                 </button>
